@@ -15,7 +15,6 @@ const Navbar = () => {
             <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='intro' className='desktoplink'>Home</Link>
             <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='skills' className='desktoplink'>About</Link>
             <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='works' className='desktoplink'>Portfolio</Link>
-            <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='client' className='desktoplink'>Clients</Link>
 
         </div>
         <button className='desktopbutton' onClick={()=>{document.getElementById('contects').scrollIntoView({behavior:'smooth'});} }>
@@ -26,7 +25,6 @@ const Navbar = () => {
             <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='intro' className='listitme' onClick={()=>setShowMenu(false)}>Home</Link>
             <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='skills' className='listitme' onClick={()=>setShowMenu(false)}>About</Link>
             <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='works' className='listitme' onClick={()=>setShowMenu(false)}>Portfolio</Link>
-            <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='client' className='listitme' onClick={()=>setShowMenu(false)}>Clients</Link>
             <Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} to='contects' className='listitme' onClick={()=>setShowMenu(false)}>Contact</Link></div>
     </nav>
   )

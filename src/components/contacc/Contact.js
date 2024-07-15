@@ -29,7 +29,7 @@ const Contact = () => {
     
   return (
     <section className='contactPage'>
-        <div id='client'>
+       {/* <div id='client'>
             <h1 className='clienttitle'>My Clients</h1>
             <p className='clientDesc'>I have had the opportunity to work a diverse group of companies. Some of the notable companies I have worked with includes..</p>
             <div className='clientimgs'>
@@ -37,8 +37,8 @@ const Contact = () => {
                 <img src={whatsapp} alt='client' className='clientimg'/>
                 <img src={github} alt='client' className='clientimg'/>
                 <img src={linkedin} alt='client' className='clientimg'/>
-            </div>
-        </div>
+            </div> 
+        </div>*/}
         <div id='contects'>
             <h1 className='clienttitle'>Contact Me</h1>
             <span className='contactdesc'>Please fill out the form below to discuss any work opportunity</span>
