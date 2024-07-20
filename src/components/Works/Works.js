@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import './works.css';
-import com from '../com.jpg';
-import communication from '../communication.jpg';
-import hardwork from '../hardwork.jpg';
-import leader from '../teamleader.jpg';
-import programmer from '../programmer.jpg';
-import time from '../time.jpg';
-import self from '../self.jpg';
-import communu from '../commu.jpg';
-import problem from '../problemsolve.jpg';
+import com from '../image/com.jpg';
+import communication from '../image/communication.jpg';
+import hardwork from '../image/hardwork.jpg';
+import leader from '../image/teamleader.jpg';
+import programmer from '../image//programmer.jpg';
+import time from '../image/time.jpg';
+import self from '../image/self.jpg';
+import communu from '../image/commu.jpg';
+import problem from '../image/problemsolve.jpg';
 
 
 

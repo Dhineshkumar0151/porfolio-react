@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { GrContact } from "react-icons/gr";
-import  portfolio from '../components/porfolio.png'; 
+import  portfolio from '../components/image/porfolio.png'; 
 import { CiMenuBurger } from "react-icons/ci";
 import { Link } from 'react-scroll';
 

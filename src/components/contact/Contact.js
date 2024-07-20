@@ -1,9 +1,9 @@
 import React, { useRef } from 'react'
 import './contact.css';
-import insta from '../insta.jpg';
-import whatsapp from '../whatsapp.jpg';
-import github from '../github.png';
-import linkedin from '../linkedin.png'
+import insta from '../image/insta.jpg';
+import whatsapp from '../image/whatsapp.jpg';
+import github from '../image/github.png';
+import linkedin from '../image/linkedin.png'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -48,10 +48,14 @@ const Contact = () => {
                 <textarea name='message' rows="5" placeholder='Your Message' className='Msg'></textarea>
                 <button className='btnform' type='submit' value='Send'>SUBMIT</button>
                 <div className='links'>
-                    <img src={insta} alt='' className='contactimg' />
-                    <img src={whatsapp} alt='' className='contactimg' />
-                    <img src={github} alt='' className='contactimg' />
-                    <img src={linkedin} alt='' className='contactimg' />
+                  <a href='https://github.com/Dhineshkumar0151/'>
+                    <img src={github} alt='' className='contactimg' /></a>
+                   <a href='https://www.linkedin.com/in/dhinesh-kumar-aa0394259/'>
+                    <img src={linkedin} alt='' className='contactimg' /></a>
+                   <a href='https://www.instagram.com/itz_me_d200?igsh=YXIzb2djdXRrZmN1'> 
+                   <img src={insta} alt='' className='contactimg' /></a>
+                  <a href='https://wa.me/6381280584'>
+                    <img src={whatsapp} alt='' className='contactimg' /></a>
                 </div>
             </form>
         </div>

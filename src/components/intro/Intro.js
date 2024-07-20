@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css';
-import dhinesh from '../dhineshPhoto.png'
+import dhinesh from '../../components/image/dhineshPhoto.png'
 import { Link } from 'react-scroll';
 import { RiLogoutBoxRFill } from "react-icons/ri";
 

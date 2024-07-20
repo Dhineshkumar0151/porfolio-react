@@ -1,8 +1,8 @@
 import React from 'react'
 import './skills.css';
-import frontend from '../../frontend.jpg';
-import backend from '../../backend.jpg'
-import database from '../../Database.jpg'
+import frontend from '../../image/frontend.jpg';
+import backend from '../../image/backend.jpg'
+import database from '../../image/Database.jpg'
 
 const Skills = () => {
   return (
